@@ -1,0 +1,25 @@
+.application-page-layout{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1600px) {
+    .application-page-layout{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .application-page-layout{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .application-page-layout{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
