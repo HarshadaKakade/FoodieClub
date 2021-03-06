@@ -7,7 +7,7 @@ export default function ApplicationDropdown ({list, defaultValue ,onClick}) {
             <select 
                 className = "dropdown-list dropdown-box"
                 defaultValue={defaultValue} 
-                onClick ={e=> onClick(e.target.value)} >
+                onChange ={e=> onClick(e.target.value)} >
                 {
                     list.map(({displayName,categoryId})=> <option 
                         className = "dropdown-list"
